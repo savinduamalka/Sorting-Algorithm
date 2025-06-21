@@ -22,6 +22,7 @@ int main() {
         printf("%d ", arr[i]);
     }
     printf("\n");
+    insertionSort(arr, n);
 
     return 0;
 }
