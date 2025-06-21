@@ -17,6 +17,11 @@ void insertionSort(int arr[], int n) {
 int main() {
     int arr[10] = {5, 2, 9, 1, 5, 6, 3, 8, 7, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
+    printf("Original array: \n");
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 
     return 0;
 }
