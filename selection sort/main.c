@@ -26,5 +26,6 @@ int main() {
     }
     printf("\n");
     
+    selection_sort(arr, n);
     return 0;
 }
