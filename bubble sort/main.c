@@ -29,6 +29,12 @@ int main() {
 
 
     printf("Bubble Sort...\n");
+    printf("Original array: \n");
+    printArray(arr, n);
+    bubbleSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    printf("End of Bubble Sort.\n");
 
     return 0;
 }
