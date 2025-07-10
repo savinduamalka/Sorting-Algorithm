@@ -30,6 +30,17 @@ void merge(int arr[], int left, int mid, int right) {
         arr[k++] = R[j++];
 }
 
+void mergeSort(int arr[], int left, int right) {
+    if (left < right) {
+        int mid = left + (right - left) / 2;
+
+        mergeSort(arr, left, mid);
+        mergeSort(arr, mid + 1, right);
+
+        merge(arr, left, mid, right);
+    }
+}
+
 void printArray(int arr[], int size) {
     
     for (int i = 0; i < size; i++)
