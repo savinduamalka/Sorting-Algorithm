@@ -56,6 +56,8 @@ int main() {
 
     printf("Original array: ");
     printArray(arr, n);
+
+    mergeSort(arr, 0, n - 1);
     
     
     return 0;
