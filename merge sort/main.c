@@ -58,6 +58,9 @@ int main() {
     printArray(arr, n);
 
     mergeSort(arr, 0, n - 1);
+
+    printf("Sorted array: ");
+    printArray(arr, n);
     
     
     return 0;
